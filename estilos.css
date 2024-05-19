@@ -1,0 +1,85 @@
+body {background: #ccc; margin: 0;
+     box-sizing: border-box;
+      font-family: Montserrat;
+       font-weight: 600;}
+
+        .contenedor {
+            width: 80%;
+            max-width: 1048px;
+            margin: 0 auto;}
+
+        .btn {
+            padding: 12px 24px; 
+            background: #8960e3; 
+            text-decoration: none; color: #fff; 
+            font-weight: 800; border-radius: 25px; 
+            position:static;
+            top: 16px; 
+            transition: all .5s;
+            
+        }
+
+        .btn:hover {
+            background: #2d1f4b;}
+
+
+        header {
+            background: #fff;
+            padding: 16px;
+            position: sticky;
+            top: 0;
+        }
+        header .contenedor {
+            display: flex; 
+            justify-content: space-between;
+            align-items: center; 
+        }
+
+        #logo {font-size: 22px; 
+            font-weight: 700;}
+
+        header ul {display: flex;}
+
+        header li {
+            padding-left: 16px;
+             list-style: none;}
+
+        header a {
+            text-decoration: none; 
+            color: #000; font-size: 14px; 
+            transition: all .5s;
+        }
+
+       nav a:hover {color: #8960e3;}
+       nav a:active {color: #291c46;}
+    
+       #hero-section {display: flex; height: 400px;}
+        
+       #left-panel {
+            width: 50%; 
+            display: flex; 
+            align-items: center;
+        }
+
+        #left-panel p {
+            font-size: 20px;
+             font-weight: 600;}
+        #left-panel h1 {
+            font-size: 48px;
+             font-weight: 800;
+              margin: 16px 0;
+               line-height: 1;}
+        #left-panel h2 {font-size: 18px;
+             font-weight: 600;
+              color: #9d9d9d;}
+
+		#right-panel {
+            width: 50%; 
+            display: flex; 
+            justify-content: center; 
+            align-items: center;
+        }
+
+		#right-panel img {
+            border-radius: 50%;
+             width: 60%;}
